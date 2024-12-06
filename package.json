@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "aws-sdk": "^2.1692.0",
-    "formidable": "^3.5.2",
     "hono": "^4.6.13"
   }
 }
