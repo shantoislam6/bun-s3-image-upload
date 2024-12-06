@@ -1,15 +1,15 @@
-# s3-function
+# Bun s3 Image Upload
 
 To install dependencies:
 
 ```bash
-bun install
+bun i
 ```
 
 To run:
 
 ```bash
-bun run index.ts
+bun dev
 ```
 
 This project was created using `bun init` in bun v1.1.27. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
