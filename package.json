@@ -1,0 +1,21 @@
+{
+  "name": "bun-s3-image-upload",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot index.ts",
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/formidable": "^3.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "formidable": "^3.5.2",
+    "hono": "^4.6.13"
+  }
+}
